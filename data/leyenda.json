@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+  "title": "Domovoi",
+  "description": "El domovoi es un ente protector, y su función consiste en cuidar de la casa, la familia y los bienes de esta, lo cual incluye de forma muy especial al ganado y a las aves de corral. El domovoi siente una predilección particular por los caballos, al menos por los de su color favorito, a los que peina, cepilla y da de comer durante la noche. A aquellos que no le gustan los monta hasta el amanecer, dejándolos exhaustos. Resulta fundamental para el cabeza de familia, por tanto, averiguar cuál es el color favorito del domovoi antes de comprar ningún animal y no olvidarse después de presentárselo mediante una pequeña ceremonia.",
+  "imagen": "domovoi.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Rübezahl",
+     "description": "Si viajas hacia el norte desde los valles de Bohemia y sigues los ríos serpenteantes que atraviesan bosques de pinos sombríos, te encontrarás en las estribaciones de los Montes Krkonoše. Aquí, donde la niebla se aferra a las crestas dentadas y las flores silvestres se esconden entre las piedras, siempre han flotado susurros en el viento: historias sobre un ser misterioso conocido como Rübezahl, el Viejo de la Montaña. Durante siglos, aldeanos, mineros y comerciantes errantes han afirmado ver su imponente figura entre las brumas arremolinadas o escuchar su risa resonando en los valles, mezclándose con los cantos de los ruiseñores y el susurro de los abetos. En este reino donde las estaciones cambian velozmente y el temperamento de la montaña puede volverse de apacible a feroz en un suspiro, Rübezahl reina como protector y juez. Algunos dicen que nació de los propios huesos de la montaña, otros insisten en que fue un hombre mortal transformado por una magia ancestral en un espíritu que ahora camina entre la leyenda y la realidad. Sus ojos, tan antiguos como el tiempo, vigilan los bosques, arroyos y picos escarpados, atentos a cada muestra de bondad o crueldad. A quienes viven con sencillez y honran la tierra, es un amigo silencioso: guía a los niños perdidos hasta su hogar o aparta las nubes de lluvia de los campos en maduración. Pero quienes invaden, roban o desprecian a los espíritus de la montaña, terminan extraviados, confundidos o peor aún—castigados por travesuras y tormentas surgidas de la nada. Esta es la historia del Viejo de la Montaña y de aquellos cuyas vidas tocó: personas humildes que se ganaron su favor, almas codiciosas que sufrieron su ira y un mundo donde cada piedra y cada sombra oculta la mano de una leyenda grabada en el corazón del paisaje checo.",
+    "imagen": "rübezahl.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Jardín Lunar",
+    "description": "Flores que solo florecen bajo la luna llena. Sus pétalos brillan como estrellas.",
+    "imagen": "card-image.jpg"
+  }
+]
