@@ -4,7 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 import useProjectData from '../hooks/useProjectData'; 
 
 // 🔹 IMPORTA TUS IMÁGENES
-import cardDuende from '../assets/images/card-duende.jpg';
+import cardPuck from '../assets/images/puck.jpg';
 import cardDuende2 from '../assets/images/card-duende2.jpg';
 import cardImage from '../assets/images/card-image.jpg';
 
@@ -12,7 +12,7 @@ import cardImage from '../assets/images/card-image.jpg';
 //Objeto mapa
 const imageMap = {
   //Propiedades:clave(card-duende.jpg),valor(cardDuende)
-  'card-duende.jpg': cardDuende,
+  'puck.jpg': cardPuck,
   'card-duende2.jpg': cardDuende2,
   'card-image.jpg': cardImage,
 };

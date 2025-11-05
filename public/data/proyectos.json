@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Duende de los Bosques",
-    "description": "Guardián de los árboles antiguos y protector de los animales del bosque.",
-    "imagen": "card-duende.jpg"
+    "title": "Puck",
+    "description": "Puck es una figura legendaria de la mitología inglesa y el folklore celta, conocido principalmente como un duende travieso o espíritu. Aparece en varias obras literarias antiguas, pero es más famoso por su rol en la obra de William Shakespeare, “El sueño de una noche de verano”, donde es un sirviente de Oberón, el rey de las hadas.",
+    "imagen": "puck.jpg"
   },
   {
     "id": 2,
