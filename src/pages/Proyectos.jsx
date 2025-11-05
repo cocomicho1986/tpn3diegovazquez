@@ -6,7 +6,7 @@ import useProjectData from '../hooks/useProjectData';
 // 🔹 IMPORTA TUS IMÁGENES
 import cardPuck from '../assets/images/puck.jpg';
 import cardPomberito from '../assets/images/pomberito.jpg';
-import cardImage from '../assets/images/card-image.jpg';
+import cardKozo from '../assets/images/kozo.jpg';
 
 // 🔹 MAPEO DE IMÁGENES
 //Objeto mapa
@@ -14,7 +14,7 @@ const imageMap = {
   //Propiedades:clave(card-duende.jpg),valor(cardDuende)
   'puck.jpg': cardPuck,
   'pomberito.jpg': cardPomberito,
-  'card-image.jpg': cardImage,
+  'kozo.jpg': cardKozo,
 };
 
 export default function Proyectos() {
