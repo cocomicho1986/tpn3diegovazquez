@@ -3,7 +3,7 @@ import React from 'react';
 import useCardToggle from '../hooks/useCardToggle'; 
 import UIButton from './UIButton';
 import styles from '../styles/Card.module.css';
-import TypewriterText from './TypewriterText';
+import Maquina from './Maquina';
 
 export default function ProjectCard({ proyecto, imagenSrc }) {
   const { isTextView, toggleView } = useCardToggle(false);
@@ -18,11 +18,11 @@ export default function ProjectCard({ proyecto, imagenSrc }) {
               {/*Typewriter:Componente*/}
               {/*text:parametro que toma proyecto.title*/}
               {/*speed:parametro que define la velocidad*/}
-              <TypewriterText text={proyecto.title} speed={80} />
+              {proyecto.title} 
               
               </h3>
             <p>
-              <TypewriterText text={proyecto.description} speed={80}/>
+              <Maquina text={proyecto.description} speed={80}/>
               </p>
           </div>
           //isTextView==false, muestra la imagen
