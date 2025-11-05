@@ -3,18 +3,18 @@
     "id": 1,
   "title": "Bosque de Pokaini, Letonia",
   "description": "El bosque de Pokaini no tiene, en principio, nada particularmente extraño… hasta que ves las extrañas pilas de piedras cubiertas de musgo. Estos montoncitos están diseminados aleatoriamente por el bosque, lo que despierta la curiosidad (y la imaginación) de los visitantes. Algunos afirman que en el bosque se llevaban a cabo en tiempos antiguos rituales paganos y ahora tiene la habilidad mística de sanar a gente: hay quien trae ofrendas a las piedras para aumentar sus poderes. Otros le atribuyen a este bosque cualidades más siniestras, ya que creen que conduce a un universo paralelo. Ha habido informaciones de gente que se encontró mal e incluso murió al poco de salir del bosque, y los lugareños advierten que robar una piedra traerá la mala suerte a quien cometa la ofensa.",
-  "imagen": "card-duende.jpg"
+  "imagen": "pokaini.jpg"
   },
   {
     "id": 2,
     "title": "Castillo de Blackness",
     "description": "El castillo de Blackness, bañado por las temblorosas aguas del fiordo de forth, es una de las fortalezas más formidables de Escocia. Este castillo del siglo XV ha sido una fortificación de artillería, una prisión y un depósito de municiones a lo largo de los años y ahora es un monumento catalogado bajo el cuidado de Historic Environment Scotland (cuerpo público que investiga, protege y potencia las propiedades históricas escocesas). Cuenta la leyenda que el fantasma de un caballero con armadura vigila la torre de la prisión, saltando de vez en cuando sobre los visitantes y asustándolos. No te descuides en esta temible fortaleza y todo irá bien... probablemente el caballero solo esté buscando hacer amigos.",
-    "imagen": "card-duende2.jpg"
+    "imagen": "blackness.jpg"
   },
   {
     "id": 3,
     "title": "El Cementerio de la Recoleta",
     "description": "Todos los cementerios dan miedo. Sin embargo, el autor asegura que “la actividad paranormal en La Recoleta (Buenos Aires) está completamente a otro nivel, con muchas de las personalidades más influyentes de Argentina enterradas aquí”.Fue construido en 1822 como primer cementerio público de la ciudad y su trazado es obra del ingeniero francés Próspero Catelin. Luego, hacia fines del siglo XIX, cuando las familias más acomodadas comenzaron a mudarse hacia esta zona de la ciudad, pasó a convertirse en su necrópolis preferida.",
-    "imagen": "card-image.jpg"
+    "imagen": "recoleta.jpg"
   }
 ]
