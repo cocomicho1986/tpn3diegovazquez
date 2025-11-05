@@ -2,7 +2,7 @@
 import React from 'react';
 // 🔑 IMPORTA EL CSS MODULE CORRECTO
 import styles from '../styles/leyenda.module.css';
-import TypewriterText from './TypewriterText';
+import Maquina from './Maquina';
 
 export default function leyendaCard({ lugar, imagenSrc }) {
   return (
@@ -15,7 +15,7 @@ export default function leyendaCard({ lugar, imagenSrc }) {
       <div className={styles.scrollableText}>
         <h3 className={styles.cardTitle}>{lugar.title}</h3>
         <p className={styles.cardDescription}>
-          <TypewriterText text={lugar.description} speed={80}/>
+          <Maquina text={lugar.description} speed={80}/>
           </p>
       </div>
     </div>
