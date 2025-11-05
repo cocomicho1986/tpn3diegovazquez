@@ -5,7 +5,7 @@ import useProjectData from '../hooks/useProjectData';
 
 // 🔹 IMPORTA TUS IMÁGENES
 import cardPuck from '../assets/images/puck.jpg';
-import cardDuende2 from '../assets/images/card-duende2.jpg';
+import cardPomberito from '../assets/images/pomberito.jpg';
 import cardImage from '../assets/images/card-image.jpg';
 
 // 🔹 MAPEO DE IMÁGENES
@@ -13,7 +13,7 @@ import cardImage from '../assets/images/card-image.jpg';
 const imageMap = {
   //Propiedades:clave(card-duende.jpg),valor(cardDuende)
   'puck.jpg': cardPuck,
-  'card-duende2.jpg': cardDuende2,
+  'pomberito.jpg': cardPomberito,
   'card-image.jpg': cardImage,
 };
 
