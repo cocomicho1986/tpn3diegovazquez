@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+  "title": "Bosque de los Susurros",
+  "description": "Este bosque mágico es hogar de los duendes más antiguos, quienes tejen sueños con las hojas doradas de los árboles centenarios. Cada noche, cuando la luna está llena, los árboles cantan canciones ancestrales que solo los corazones puros pueden escuchar. Los animales del bosque actúan como guardianes silenciosos, protegiendo este lugar sagrado donde el tiempo fluye de manera diferente y los deseos sinceros se hacen realidad al amanecer.",
+  "imagen": "card-duende.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Catarata de Cristal",
+    "description": "Agua que brilla en la oscuridad y cura el cansancio del alma.",
+    "imagen": "card-duende2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Jardín Lunar",
+    "description": "Flores que solo florecen bajo la luna llena. Sus pétalos brillan como estrellas.",
+    "imagen": "card-image.jpg"
+  }
+]
