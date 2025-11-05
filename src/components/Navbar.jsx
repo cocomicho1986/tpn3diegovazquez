@@ -48,7 +48,7 @@ export default function Navbar() {
           */}
           <Link className="nav-link" to="/proyectos">Proyectos</Link>
           <Link className="nav-link" to="/lugares">Lugares Mágicos</Link>
-          <Link className="nav-link" to="/leyenda">Leyenda</Link>
+          <Link className="nav-link" to="/leyendas">Leyendas</Link>
           <Link className="nav-link" to="/contacto">Contacto</Link>
         </div>
         
