@@ -9,6 +9,7 @@ import Leyenda from './pages/Leyendas';
 import Contacto from './pages/Contacto';
 import Lugares from './pages/Lugares';
 import useThemeStore from './store/useThemeStore'; 
+import Leyendas from './pages/Leyendas';
 
 export default function App() {
   // ✅ Inicializa el tema global al cargar la app
@@ -25,12 +26,12 @@ export default function App() {
         <main className="flex-grow-1 py-4">
           <Routes>
             <Route path="/" element={<Home />} />
-            {/*
+            
             <Route path="/proyectos" element={<Proyectos />} />
             <Route path="/lugares" element={<Lugares />} />
-            <Route path="/leyenda" element={<Leyenda />} />
+            <Route path="/leyendas" element={<Leyendas />} />
             <Route path="/contacto" element={<Contacto />} />
-            */}
+            
           </Routes>
         </main>
       </div>
