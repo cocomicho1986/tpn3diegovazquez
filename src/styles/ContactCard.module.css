@@ -1,0 +1,11 @@
+/* src/styles/ContactCard.module.css */
+.contactCard {
+  border: 1px solid var(--bs-border-color, #e9ecef);
+  border-radius: 12px;
+  background: var(--bs-body-bg, #fff);
+  transition: box-shadow 0.2s ease;
+}
+
+.contactCard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

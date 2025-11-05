@@ -1,0 +1,43 @@
+/*================================================================================
+ EJEMPLOS DE USO EN COMPONENTES
+================================================================================*/
+
+// Ejemplo 1: Botón en ProjectCard.jsx (tu caso de uso)
+<UIButton
+  onClick={toggleView}
+  variant="outline"
+  size="small"
+  fullWidth={true}
+>
+  {isTextView ? 'Ver Imagen' : 'Ver Texto'}
+</UIButton>
+
+// Ejemplo 2: Botón principal en formulario
+<UIButton 
+  variant="primary" 
+  size="large" 
+  fullWidth={true}
+  onClick={handleSubmit}
+  disabled={isLoading}
+>
+  {isLoading ? 'Enviando...' : 'Enviar Mensaje'}
+</UIButton>
+
+// Ejemplo 3: Botón de acción secundaria
+<UIButton 
+  variant="outline" 
+  size="medium"
+  onClick={handleCancel}
+>
+  Cancelar
+</UIButton>
+
+// Ejemplo 4: Botón de eliminación (peligroso)
+<UIButton 
+  variant="danger" 
+  size="small"
+  onClick={handleDelete}
+  disabled={isDeleting}
+>
+  Eliminar
+</UIButton>

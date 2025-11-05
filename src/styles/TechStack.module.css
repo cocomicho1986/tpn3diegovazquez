@@ -1,0 +1,37 @@
+/* src/styles/TechStack.module.css */
+.techItem {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  border-radius: 12px;
+  background: var(--bs-card-bg, #fff);
+  border: 1px solid var(--bs-border-color, #e9ecef);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.techItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.techIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.techInfo h6 {
+  color: var(--bs-body-color, #212529);
+  font-weight: 600;
+}
+
+.techInfo p {
+  font-size: 0.875rem;
+  color: var(--bs-secondary-color, #6c757d);
+}
