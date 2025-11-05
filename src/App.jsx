@@ -5,11 +5,11 @@ import Navbar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Proyectos from './pages/Proyectos';
-import Leyenda from './pages/Leyendas';
+import Leyendas from './pages/Leyendas';
 import Contacto from './pages/Contacto';
 import Lugares from './pages/Lugares';
 import useThemeStore from './store/useThemeStore'; 
-import Leyendas from './pages/Leyendas';
+
 
 export default function App() {
   // ✅ Inicializa el tema global al cargar la app
