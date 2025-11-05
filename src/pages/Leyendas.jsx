@@ -1,4 +1,4 @@
-// src/pages/Leyenda.jsx
+// src/pages/Leyendas.jsx
 import React from 'react';
 import LeyendaCard from '../components/LeyendaCard';
 import useLeyenda from '../hooks/useLeyendas';
