@@ -36,7 +36,7 @@ export default function ProjectCard({ proyecto, imagenSrc }) {
         size="small"
         fullWidth={true}
       >
-        {isTextView ? 'Ver Imagen' : 'Ver Texto'}
+        {isTextView ? 'Mi foto' : 'Quien soy'}
       </UIButton>
     </div>
   );
