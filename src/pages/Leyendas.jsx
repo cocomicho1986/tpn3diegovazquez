@@ -5,12 +5,12 @@ import useLeyenda from '../hooks/useLeyendas';
 
 import cardDuende from '../assets/images/domovoi.jpg';
 import Rübezahl from '../assets/images/rübezahl.jpg';
-import cardImage from '../assets/images/card-image.jpg';
+import cardAlmamula from '../assets/images/almamula.jpg';
 
 const imageMap = {
   'domovoi.jpg': cardDuende,
   'rübezahl.jpg': Rübezahl,
-  'card-image.jpg': cardImage
+  'almamula.jpg': cardAlmamula
 };
 
 export default function Leyendas() {
