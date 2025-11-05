@@ -3,14 +3,14 @@ import React from 'react';
 import MagicPlaceCard from '../components/MagicPlaceCard';
 import useMagicPlaces from '../hooks/useMagicPlaces';
 
-import cardDuende from '../assets/images/card-duende.jpg';
-import cardDuende2 from '../assets/images/card-duende2.jpg';
-import cardImage from '../assets/images/card-image.jpg';
+import cardPokaini from '../assets/images/pokaini.jpg';
+import cardBlackness from '../assets/images/blackness.jpg';
+import cardRecoleta from '../assets/images/recoleta.jpg';
 
 const imageMap = {
-  'card-duende.jpg': cardDuende,
-  'card-duende2.jpg': cardDuende2,
-  'card-image.jpg': cardImage,
+  'pokaini.jpg': cardPokaini,
+  'blackness.jpg': cardBlackness,
+  'recoleta.jpg': cardRecoleta,
 };
 
 export default function Lugares() {
