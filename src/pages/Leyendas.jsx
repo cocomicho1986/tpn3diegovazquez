@@ -3,12 +3,12 @@ import React from 'react';
 import LeyendaCard from '../components/LeyendaCard';
 import useLeyenda from '../hooks/useLeyendas';
 
-import cardDuende from '../assets/images/domovoi.jpg';
+import cardKrampus from '../assets/images/krampus.jpg';
 import Rübezahl from '../assets/images/rübezahl.jpg';
 import cardAlmamula from '../assets/images/almamula.jpg';
 
 const imageMap = {
-  'domovoi.jpg': cardDuende,
+  'krampus.jpg': cardKrampus,
   'rübezahl.jpg': Rübezahl,
   'almamula.jpg': cardAlmamula
 };
