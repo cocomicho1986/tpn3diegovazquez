@@ -1,4 +1,5 @@
 // src/components/MagicPlaceCard.jsx
+// Corresponde a Lugares.jsx
 import React from 'react';
 // 🔑 IMPORTA EL CSS MODULE CORRECTO
 import styles from '../styles/MagicPlaceCard.module.css';
