@@ -18,11 +18,18 @@ const useThemeStore = create((set, get) => ({
     
     if (saved) {
       // Si hay preferencia guardada, usa ese valor
-      // 'dark' → true, cualquier otra cosa → false
+    // 'dark' → true, cualquier otra cosa → false
+    //   Si saved = 'dark' → 'dark' === 'dark' → true
+    //   Si saved = 'light' → 'light' === 'dark' → false
+    //   Si saved = null → null === 'dark' → false
       set({ isDarkMode: saved === 'dark' });
     } else {
       // Si no hay preferencia, usa la del sistema operativo
+      //window -> Objeto global del navegador
+      //MatchMedia -> Deteccion de preferencias, (prefers-color-scheme) compara con dark
+      //matches --> Booleano que puede devolver true o false (dark==true or dark==false)
       const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      //Setea isDarkmode ? true : false
       set({ isDarkMode: systemPrefersDark });
     }
     // Aplica el tema al DOM después de establecer el estado
