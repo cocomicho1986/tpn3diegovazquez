@@ -27,6 +27,31 @@
   box-shadow: 0 8px 24px rgba(46, 125, 50, 0.25);
 }
 
+/* ✨ Tipografía mágica para títulos */
+.card h1,
+.card h2,
+.card h3,
+.card h4,
+.card h5,
+.card h6 {
+  font-family: 'Caveat', 'Dancing Script', cursive, system-ui;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  margin: 0 0 0.5rem;
+}
+
+/* ✨ Estilo mágico para párrafos */
+.card p {
+  font-family: 'Quicksand', 'Segoe UI', system-ui;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+  opacity: 0.9;
+  margin: 0;
+}
+
 .imageSide {
   width: 100%;
   height: 100%;
@@ -34,46 +59,69 @@
 }
 
 .textSide {
-  padding: 1.2rem;
+  padding: 1.5rem;
   text-align: center;
   width: 100%;
 }
 
 .textSide h3 {
-  margin: 0 0 0.75rem;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   color: var(--color-text, #1b5e20);
-  font-weight: 700;
+  /* ✨ Efecto de texto mágico */
+  position: relative;
+}
+
+.textSide h3::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: var(--color-primary, #2e7d32);
+  margin: 8px auto 0;
+  border-radius: 1px;
 }
 
 .textSide p {
   color: var(--color-text, #1b5e20);
   opacity: 0.85;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin: 0;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 /* Estilos para el scroll en Lugares Mágicos */
 .scrollableText {
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   overflow-y: auto;
-  max-height: 120px;
+  max-height: 160px;
   text-align: center;
 }
 
 .cardTitle {
-  margin: 0 0 0.75rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: var(--color-text, #1b5e20);
-  font-weight: 700;
+  font-family: 'Caveat', 'Dancing Script', cursive, system-ui;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+  position: relative;
+}
+
+.cardTitle::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: var(--color-primary, #2e7d32);
+  margin: 10px auto 0;
+  border-radius: 1px;
 }
 
 .cardDescription {
   color: var(--color-text, #1b5e20);
   opacity: 0.85;
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-family: 'Quicksand', 'Segoe UI', system-ui;
+  font-size: 1.05rem;
+  line-height: 1.7;
   margin: 0;
 }
 
@@ -85,4 +133,15 @@
   object-position: center;
   background-color: var(--color-card-bg, #ffffff);
   border-bottom: 2px solid var(--color-primary, #2e7d32);
+}
+
+/* ✨ Efecto mágico para texto en modo oscuro */
+[data-bs-theme="dark"] .card h3,
+[data-bs-theme="dark"] .cardTitle {
+  text-shadow: 0 0 10px rgba(102, 187, 106, 0.3);
+}
+
+[data-bs-theme="dark"] .card p,
+[data-bs-theme="dark"] .cardDescription {
+  text-shadow: 0 0 5px rgba(232, 245, 233, 0.2);
 }
