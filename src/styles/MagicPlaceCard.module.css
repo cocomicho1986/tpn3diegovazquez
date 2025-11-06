@@ -35,12 +35,14 @@
 .cardTitle {
   margin: 0 0 0.75rem;
   font-size: 1.1rem;
+  font-family: fantasy;
   color: var(--bs-body-color, #212529);
 }
 
 .cardDescription {
   color: var(--bs-secondary-color, #6c757d);
   font-size: 0.9rem;
+  font-family: fantasy;
   line-height: 1.5;
   margin: 0;
 }
