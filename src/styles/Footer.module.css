@@ -1,0 +1,17 @@
+/* src/styles/Footer.module.css */
+.footer {
+  background: var(--bs-card-bg, #f8f9fa);
+  border-top: 1px solid var(--bs-border-color, #e9ecef);
+  padding: 1.5rem 0;
+  margin-top: auto;
+  color: var(--bs-body-color, #212529);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footerText {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--bs-body-color, #212529);
+  opacity: 0.8;
+  line-height: 1.5;
+}
