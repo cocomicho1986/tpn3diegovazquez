@@ -46,7 +46,7 @@ export default function Navbar() {
             - to="/ruta": define la URL a la que navega
             - React Router actualiza la URL y renderiza el componente correspondiente
           */}
-          <Link className="nav-link" to="/proyectos">Proyectos</Link>
+          <Link className="nav-link" to="/proyectos">Seres</Link>
           <Link className="nav-link" to="/lugares">Lugares Mágicos</Link>
           <Link className="nav-link" to="/leyendas">Leyendas</Link>
           <Link className="nav-link" to="/contacto">Contacto</Link>
