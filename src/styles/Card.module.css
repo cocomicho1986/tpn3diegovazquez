@@ -6,50 +6,26 @@
   width: 100%;
 }
 
+/* ✅ Añade la clase 'card' de Bootstrap */
 .card {
   width: 100%;
   aspect-ratio: 4 / 3;
-  border: 2px solid var(--color-primary, #2e7d32);
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(46, 125, 50, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-card-bg, #ffffff);
-  color: var(--color-text, #1b5e20);
+  /* ✅ Usa las variables de Bootstrap correctamente */
+  background: var(--bs-card-bg);
+  color: var(--bs-body-color);
   flex: 1;
-  transition: all 0.3s ease;
+  transition: transform 0.2s ease;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(46, 125, 50, 0.25);
-}
-
-/* ✨ Tipografía mágica para títulos */
-.card h1,
-.card h2,
-.card h3,
-.card h4,
-.card h5,
-.card h6 {
-  font-family: 'Caveat', 'Dancing Script', cursive, system-ui;
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: 0.5px;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-  margin: 0 0 0.5rem;
-}
-
-/* ✨ Estilo mágico para párrafos */
-.card p {
-  font-family: 'Quicksand', 'Segoe UI', system-ui;
-  font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: 0.2px;
-  opacity: 0.9;
-  margin: 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .imageSide {
@@ -58,90 +34,56 @@
   object-fit: cover;
 }
 
+/* ✅ Asegura que el texto use colores correctos */
 .textSide {
-  padding: 1.5rem;
+  padding: 1.2rem;
   text-align: center;
   width: 100%;
+  color: var(--bs-body-color);
 }
 
 .textSide h3 {
-  font-size: 1.4rem;
-  color: var(--color-text, #1b5e20);
-  /* ✨ Efecto de texto mágico */
-  position: relative;
-}
-
-.textSide h3::after {
-  content: '';
-  display: block;
-  width: 40px;
-  height: 2px;
-  background: var(--color-primary, #2e7d32);
-  margin: 8px auto 0;
-  border-radius: 1px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 0.8rem;
+  line-height: 1.3;
+  color: var(--bs-body-color);
 }
 
 .textSide p {
-  color: var(--color-text, #1b5e20);
-  opacity: 0.85;
   font-size: 1rem;
-  line-height: 1.7;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--bs-secondary-color);
 }
 
-/* Estilos para el scroll en Lugares Mágicos */
+/* Estilos para Lugares Mágicos */
 .scrollableText {
-  padding: 1.5rem 1rem;
+  padding: 1.2rem;
   overflow-y: auto;
-  max-height: 160px;
+  max-height: 140px;
   text-align: center;
+  color: var(--bs-body-color);
 }
 
 .cardTitle {
-  font-size: 1.3rem;
-  color: var(--color-text, #1b5e20);
-  font-family: 'Caveat', 'Dancing Script', cursive, system-ui;
+  font-size: 1.25rem;
   font-weight: 600;
-  line-height: 1.2;
-  margin: 0 0 1rem;
-  position: relative;
-}
-
-.cardTitle::after {
-  content: '';
-  display: block;
-  width: 50px;
-  height: 2px;
-  background: var(--color-primary, #2e7d32);
-  margin: 10px auto 0;
-  border-radius: 1px;
+  margin: 0 0 0.8rem;
+  line-height: 1.3;
+  color: var(--bs-body-color);
 }
 
 .cardDescription {
-  color: var(--color-text, #1b5e20);
-  opacity: 0.85;
-  font-family: 'Quicksand', 'Segoe UI', system-ui;
-  font-size: 1.05rem;
-  line-height: 1.7;
+  font-size: 1rem;
+  line-height: 1.6;
   margin: 0;
+  color: var(--bs-secondary-color);
 }
 
-/* Estilos para la imagen en Lugares Mágicos */
 .imageSide {
   width: 100%;
   height: 180px;
   object-fit: contain;
   object-position: center;
-  background-color: var(--color-card-bg, #ffffff);
-  border-bottom: 2px solid var(--color-primary, #2e7d32);
-}
-
-/* ✨ Efecto mágico para texto en modo oscuro */
-[data-bs-theme="dark"] .card h3,
-[data-bs-theme="dark"] .cardTitle {
-  text-shadow: 0 0 10px rgba(102, 187, 106, 0.3);
-}
-
-[data-bs-theme="dark"] .card p,
-[data-bs-theme="dark"] .cardDescription {
-  text-shadow: 0 0 5px rgba(232, 245, 233, 0.2);
 }
