@@ -1,6 +1,12 @@
 /* src/styles/UIButton.module.css */
+/* Paleta de colores marrón sugerida: */
+/* --color-primary: #6b4f3d; (Marrón medio) */
+/* --color-secondary: #9c7b64; (Marrón claro para hover/fondo) */
+/* --color-accent: #4a342a; (Marrón oscuro para acentos/éxito) */
+
+
 .button {
-  border: 2px solid var(--color-primary, #2e7d32);
+  border: 2px solid var(--color-primary, #6b4f3d);
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
@@ -11,43 +17,46 @@
   text-decoration: none;
   font-family: inherit;
   user-select: none;
-  background: var(--color-primary, #2e7d32);
+  background: var(--color-primary, #6b4f3d);
+  
+  
   color: white;
 }
 
 button.variant-primary {
-  background: var(--color-primary, #2e7d32);
+  background: var(--color-primary, #6b4f3d);
+  
   color: white;
-  border: 2px solid var(--color-primary, #2e7d32);
+  border: 2px solid var(--color-primary, #6b4f3d);
 }
 
 button.variant-primary:hover:not(.disabled) {
-  background: var(--color-secondary, #6b4f3d);
+  background: var(--color-secondary, #9c7b64);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(46, 125, 50, 0.3);
+  box-shadow: 0 4px 12px rgba(107, 79, 61, 0.3); /* Sombra basada en el color primario marrón */
 }
 
 button.variant-outline {
   background: transparent;
-  color: var(--color-primary, #2e7d32);
-  border: 2px solid var(--color-primary, #2e7d32);
+  color: var(--color-primary, #6b4f3d);
+  border: 2px solid var(--color-primary, #6b4f3d);
 }
 
 button.variant-outline:hover:not(.disabled) {
-  background: rgba(46, 125, 50, 0.1);
+  background: rgba(107, 79, 61, 0.1); /* Fondo claro para hover basado en el color primario marrón */
   transform: translateY(-2px);
 }
 
 button.variant-success {
-  background: var(--color-accent, #1976d2);
+  background: var(--color-accent, #4a342a);
   color: white;
-  border: 2px solid var(--color-accent, #1976d2);
+  border: 2px solid var(--color-accent, #4a342a);
 }
 
 button.variant-success:hover:not(.disabled) {
-  background: #1565c0;
+  background: #3e2b23; /* Tono más oscuro de --color-accent para hover */
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);
+  box-shadow: 0 4px 12px rgba(74, 52, 42, 0.3); /* Sombra basada en el color accent marrón */
 }
 
 .size-small {
@@ -77,6 +86,6 @@ button.variant-success:hover:not(.disabled) {
 }
 
 .button:focus {
-  outline: 2px solid var(--color-primary, #2e7d32);
+  outline: 2px solid var(--color-primary, #6b4f3d);
   outline-offset: 2px;
 }
