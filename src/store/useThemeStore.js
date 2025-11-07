@@ -62,7 +62,13 @@ const useThemeStore = create((set, get) => ({
       // ✅ Modo oscuro:
       // - Añade el atributo 'data-bs-theme="dark"' para Bootstrap
       // - Añade clases de Bootstrap para fondo oscuro y texto claro
-      document.documentElement.setAttribute('data-bs-theme', 'dark');
+
+      {/*
+      Ambas líneas logran el mismo objetivo visual (modo oscuro), pero la primera 
+      lo hace de forma implícita y global, y la segunda lo hace de forma explícita y específica 
+      para el cuerpo de la página
+      */}
+      document.documentElement.setAttribute('data-bs-theme', 'dark'); //Ver linea 100 Card.module.css
       document.body.classList.add('bg-dark', 'text-light');
     } else {
       // ✅ Modo claro:
