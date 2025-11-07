@@ -38,7 +38,7 @@ export default function Lugares() {
 
   return (
     <div className="container py-4">
-      <h2 className="mb-4 text-center">Lugares Mágicos</h2>
+      
       <div className="row g-4">
         {lugares.map((lugar) => {
           const imagenSrc = imageMap[lugar.imagen];
