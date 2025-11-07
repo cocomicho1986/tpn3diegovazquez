@@ -38,7 +38,7 @@ export default function Leyendas() {
 
   return (
     <div className="container py-4">
-      <h2 className="mb-4 text-center">Leyenda</h2>
+     
       <div className="row g-4">
         {leyendas.map((leyenda) => {
           const imagenSrc = imageMap[leyenda.imagen];
