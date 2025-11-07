@@ -43,7 +43,7 @@ export default function Proyectos() {
 
   return (
     <div className="container py-4">
-      <h2 className="mb-4 text-center">Conocidos y no tanto</h2>
+     
       <div className="row g-4">
         {proyectos.map((proyecto) => {
           //imageMap definido en linea 13,proyecto es cada elemento del array
