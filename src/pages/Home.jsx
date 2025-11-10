@@ -1,8 +1,15 @@
+// src/pages/Home.jsx
+import React from 'react';
+import HomeCard from '../components/HomeCard';
+
 export default function Home() {
   return (
-    <div className="container text-center">
-      <h1>Bienvenido</h1>
-      <p>Visita las diferentes secciones</p>
+    <div className="container py-4">
+      <div className="row justify-content-center">
+        <div className="col-12 col-md-8">
+          <HomeCard />
+        </div>
+      </div>
     </div>
   );
 }

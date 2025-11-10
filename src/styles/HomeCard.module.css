@@ -1,0 +1,88 @@
+/* src/styles/HomeCard.module.css */
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+
+.card {
+  width: 100%;
+  padding: 2rem;
+  background: transparent; 
+  text-align: center;
+}
+
+
+.homeTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+  line-height: 1.2;
+  
+  
+  background: linear-gradient(
+    182deg,
+    /*to bottom, */ 
+    var(--bs-body-color) 0%,   
+    var(--bs-body-color) 35%,   
+    var(--bs-primary) 35%,      
+    var(--bs-primary) 100%      
+  );
+  
+  
+  background-size: 100% 200%;
+  
+  
+  animation: waterFlow 20s ease-in-out infinite;
+  
+  
+  background-position: 0% 0%;
+  
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+
+@keyframes waterFlow {
+ 
+  0% {
+    background-position: 15% 10%; 
+  }
+  
+  
+  25% {
+    background-position: 0% 0%; 
+  }
+  45% { background-position: 60% 40%; }
+  
+ 
+  50% {
+    background-position: 100% 100%; 
+    
+  }
+   60% { background-position: 80% 70%; }
+  
+  
+  75% {
+    background-position: 0% 100%; 
+  }
+  
+  
+  100% {
+    background-position: 0% 0%; 
+  }
+}
+
+/* Estilo del texto descriptivo */
+.homeDescription {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--bs-secondary-color);
+}
