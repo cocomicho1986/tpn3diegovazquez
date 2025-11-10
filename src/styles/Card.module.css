@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-/* ✅ Añade la clase 'card' de Bootstrap */
+
 .card {
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -16,7 +16,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* ✅ Usa las variables de Bootstrap correctamente */
   background: var(--bs-card-bg);
   color: var(--bs-body-color);
   flex: 1;
@@ -34,7 +33,7 @@
   object-fit: cover;
 }
 
-/* ✅ Asegura que el texto use colores correctos */
+
 .textSide {
   padding: 1.2rem;
   text-align: center;
@@ -51,7 +50,7 @@
 }
 
 .textSide p {
-  font-size: 1rem;
+  font-size: 10rem;
   line-height: 1.6;
   margin: 0;
   color: var(--bs-secondary-color);
@@ -90,16 +89,17 @@
   object-position: center;
 }
 
-/* ✨ Tonos marrones personalizados - Modo claro */
+
 :root {
   --bs-card-bg: #f8f5ee;    /* Beige suave */
   --bs-body-color: #212529; /* Negro suave */
   --bs-secondary-color: #6c757d; /* Gris */
 }
 
-/* ✨ Tonos marrones personalizados - Modo oscuro */
+
 [data-bs-theme="dark"] {
-  --bs-card-bg: #251f14;    /* Marrón oscuro */
-  --bs-body-color: #e8d8c5; /* Beige claro */
-  --bs-secondary-color: #c8b8a5; /* Beige medio */
+  --bs-card-bg: #251f14;
+  --bs-body-color: #e8d8c5;
+  --bs-secondary-color: #c8b8a5;
+  --bs-primary: #6ea8fe; 
 }
